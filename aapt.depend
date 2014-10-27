@@ -1,0 +1,1015 @@
+# depslib dependency file v1.0
+1413556604 source:/home/yang/workspace/aapt/AaptAssets.cpp
+	"AaptAssets.h"
+	"ResourceFilter.h"
+	"Main.h"
+	<utils/misc.h>
+	<utils/SortedVector.h>
+	<ctype.h>
+	<dirent.h>
+	<errno.h>
+
+1413946330 /home/yang/workspace/aapt/AaptAssets.h
+	<stdlib.h>
+	<utils/AssetManager.h>
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	<utils/ResourceTypes.h>
+	<utils/SortedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	<utils/RefBase.h>
+	"ZipFile.h"
+	"Bundle.h"
+	"SourcePos.h"
+
+1413556604 /home/yang/workspace/aapt/ZipFile.h
+	<utils/Vector.h>
+	<utils/Errors.h>
+	<stdio.h>
+	"ZipEntry.h"
+
+1413556604 /home/yang/workspace/aapt/ZipEntry.h
+	<utils/Errors.h>
+	<stdlib.h>
+	<stdio.h>
+
+1414375836 /home/yang/workspace/aapt/Bundle.h
+	<stdlib.h>
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+
+1413556603 /home/yang/workspace/aapt/SourcePos.h
+	<utils/String8.h>
+	<stdio.h>
+
+1413556603 /home/yang/workspace/aapt/ResourceFilter.h
+	"AaptAssets.h"
+
+1414375837 /home/yang/workspace/aapt/Main.h
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	"Bundle.h"
+	"AaptAssets.h"
+	"ZipFile.h"
+	"preDef.h"
+	<time.h>
+
+1414375837 source:/home/yang/workspace/aapt/Command.cpp
+	"Main.h"
+	"Bundle.h"
+	"ResourceFilter.h"
+	"ResourceTable.h"
+	"XMLNode.h"
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<fcntl.h>
+	<errno.h>
+
+1413556603 /home/yang/workspace/aapt/ResourceTable.h
+	"StringPool.h"
+	"SourcePos.h"
+	<set>
+	<map>
+
+1413556603 /home/yang/workspace/aapt/StringPool.h
+	"Main.h"
+	"AaptAssets.h"
+	<utils/ResourceTypes.h>
+	<utils/String16.h>
+	<utils/TextOutput.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<ctype.h>
+	<errno.h>
+	<expat.h>
+
+1413556603 /home/yang/workspace/aapt/XMLNode.h
+	"StringPool.h"
+	"ResourceTable.h"
+
+1413556604 source:/home/yang/workspace/aapt/CrunchCache.cpp
+	<utils/Vector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+	"CacheUpdater.h"
+	"CrunchCache.h"
+
+1413556604 /home/yang/workspace/aapt/DirectoryWalker.h
+	<dirent.h>
+	<sys/types.h>
+	<sys/param.h>
+	<sys/stat.h>
+	<unistd.h>
+	<utils/String8.h>
+	<stdio.h>
+
+1413556604 /home/yang/workspace/aapt/FileFinder.h
+	<utils/Vector.h>
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+
+1413964571 /home/yang/workspace/aapt/CacheUpdater.h
+	<utils/String8.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	"Images.h"
+	"preDef.h"
+
+1413556604 /home/yang/workspace/aapt/Images.h
+	"ResourceTable.h"
+	"Bundle.h"
+	<utils/String8.h>
+	<utils/RefBase.h>
+
+1413556604 /home/yang/workspace/aapt/CrunchCache.h
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"FileFinder.h"
+	"CacheUpdater.h"
+
+1413556604 source:/home/yang/workspace/aapt/FileFinder.cpp
+	<utils/Vector.h>
+	<utils/String8.h>
+	<utils/KeyedVector.h>
+	<dirent.h>
+	<sys/stat.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+
+1413964542 /home/yang/workspace/aapt/preDef.h
+
+1413556604 source:/home/yang/workspace/aapt/Images.cpp
+	"Images.h"
+	<utils/ResourceTypes.h>
+	<utils/ByteOrder.h>
+	<png.h>
+
+1414375837 source:/home/yang/workspace/aapt/Main.cpp
+	"Main.h"
+	"Bundle.h"
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<stdlib.h>
+	<getopt.h>
+	<assert.h>
+
+1414375837 source:/home/yang/workspace/aapt/Package.cpp
+	"Main.h"
+	"AaptAssets.h"
+	"ResourceTable.h"
+	"ResourceFilter.h"
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<sys/types.h>
+	<dirent.h>
+	<ctype.h>
+	<errno.h>
+
+1414376550 source:/home/yang/workspace/aapt/printapk.cpp
+	<utils/ResourceTypes.h>
+	<utils/String8.h>
+	<utils/String16.h>
+	<zipfile/zipfile.h>
+	<stdio.h>
+	<fcntl.h>
+	<unistd.h>
+	<stdlib.h>
+
+1413556603 source:/home/yang/workspace/aapt/Resource.cpp
+	"Main.h"
+	"AaptAssets.h"
+	"StringPool.h"
+	"XMLNode.h"
+	"ResourceTable.h"
+	"Images.h"
+	"CrunchCache.h"
+	"FileFinder.h"
+	"CacheUpdater.h"
+
+1413556603 source:/home/yang/workspace/aapt/ResourceFilter.cpp
+	"ResourceFilter.h"
+
+1413556603 source:/home/yang/workspace/aapt/ResourceTable.cpp
+	"ResourceTable.h"
+	"XMLNode.h"
+	"ResourceFilter.h"
+	<utils/ByteOrder.h>
+	<utils/ResourceTypes.h>
+	<stdarg.h>
+
+1413556603 source:/home/yang/workspace/aapt/SourcePos.cpp
+	"SourcePos.h"
+	<stdarg.h>
+	<vector>
+
+1413556603 source:/home/yang/workspace/aapt/StringPool.cpp
+	"StringPool.h"
+	<utils/ByteOrder.h>
+
+1413556603 source:/home/yang/workspace/aapt/XMLNode.cpp
+	"XMLNode.h"
+	"ResourceTable.h"
+	<host/pseudolocalize.h>
+	<utils/ByteOrder.h>
+	<errno.h>
+	<string.h>
+
+1413969482 source:/home/yang/workspace/aapt/ZipEntry.cpp
+	"ZipEntry.h"
+	"fakeLog.h"
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+
+1413968228 source:/home/yang/workspace/aapt/ZipFile.cpp
+	<utils/ZipUtils.h>
+	"fakeLog.h"
+	"ZipFile.h"
+	<zlib.h>
+	<memory.h>
+	<sys/stat.h>
+	<errno.h>
+	<assert.h>
+
+1414401361 /home/yang/workspace/aapt/fakeLog.h
+
+1413970438 source:/home/yang/workspace/aapt/utils-cpp/Asset.cpp
+	"fakeLog.h"
+	<utils/Asset.h>
+	<utils/Atomic.h>
+	<utils/FileMap.h>
+	<utils/StreamingZipInflater.h>
+	<utils/ZipUtils.h>
+	<utils/ZipFileRO.h>
+	<utils/threads.h>
+	<string.h>
+	<memory.h>
+	<fcntl.h>
+	<errno.h>
+	<assert.h>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+
+1413557133 source:/home/yang/workspace/aapt/utils-cpp/AssetDir.cpp
+	<utils/AssetDir.h>
+
+1413970484 source:/home/yang/workspace/aapt/utils-cpp/AssetManager.cpp
+	"fakeLog.h"
+	<utils/AssetManager.h>
+	<utils/AssetDir.h>
+	<utils/Asset.h>
+	<utils/Atomic.h>
+	<utils/String8.h>
+	<utils/ResourceTypes.h>
+	<utils/String8.h>
+	<utils/ZipFileRO.h>
+	<utils/Timers.h>
+	<utils/threads.h>
+	<dirent.h>
+	<errno.h>
+	<assert.h>
+	<strings.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1413970877 source:/home/yang/workspace/aapt/utils-cpp/BackupData.cpp
+	<utils/BackupHelpers.h>
+	<utils/ByteOrder.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	"fakeLog.h"
+
+1413970936 source:/home/yang/workspace/aapt/utils-cpp/BackupHelpers.cpp
+	<utils/BackupHelpers.h>
+	<utils/KeyedVector.h>
+	<utils/ByteOrder.h>
+	<utils/String8.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/uio.h>
+	<sys/stat.h>
+	<sys/time.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<utime.h>
+	<fcntl.h>
+	<zlib.h>
+	"fakeLog.h"
+
+1413970965 source:/home/yang/workspace/aapt/utils-cpp/BlobCache.cpp
+	<stdlib.h>
+	<string.h>
+	<utils/BlobCache.h>
+	"fakeLog.h"
+
+1413970988 source:/home/yang/workspace/aapt/utils-cpp/BufferedTextOutput.cpp
+	<utils/BufferedTextOutput.h>
+	<utils/Atomic.h>
+	<utils/Debug.h>
+	"fakeLog.h"
+	<utils/RefBase.h>
+	<utils/Vector.h>
+	<cutils/threads.h>
+	<private/utils/Static.h>
+	<stdio.h>
+	<stdlib.h>
+
+1413971600 source:/home/yang/workspace/aapt/utils-cpp/CallStack.cpp
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<dlfcn.h>
+	<cxxabi.h>
+	<unwind.h>
+	"fakeLog.h"
+	<unistd.h>
+	<utils/Errors.h>
+	<utils/CallStack.h>
+	<utils/threads.h>
+
+1413557133 source:/home/yang/workspace/aapt/utils-cpp/Debug.cpp
+	<utils/Debug.h>
+	<utils/misc.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1413971643 source:/home/yang/workspace/aapt/utils-cpp/FileMap.cpp
+	<utils/FileMap.h>
+	"fakeLog.h"
+	<stdio.h>
+	<stdlib.h>
+	<sys/mman.h>
+	<string.h>
+	<memory.h>
+	<errno.h>
+	<assert.h>
+
+1413557133 source:/home/yang/workspace/aapt/utils-cpp/Flattenable.cpp
+	<utils/Flattenable.h>
+
+1413557133 source:/home/yang/workspace/aapt/utils-cpp/LinearTransform.cpp
+	<assert.h>
+	<stdint.h>
+	<utils/LinearTransform.h>
+
+1413971884 source:/home/yang/workspace/aapt/utils-cpp/Looper.cpp
+	"fakeLog.h"
+	<utils/Looper.h>
+	<utils/Timers.h>
+	<unistd.h>
+	<fcntl.h>
+	<limits.h>
+
+1413557133 source:/home/yang/workspace/aapt/utils-cpp/misc.cpp
+	<utils/misc.h>
+	<sys/stat.h>
+	<string.h>
+	<errno.h>
+	<assert.h>
+	<stdio.h>
+	<stdio.h>
+
+1413971916 source:/home/yang/workspace/aapt/utils-cpp/ObbFile.cpp
+	<errno.h>
+	<fcntl.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<utils/Compat.h>
+	"fakeLog.h"
+	<utils/ObbFile.h>
+
+1413971933 source:/home/yang/workspace/aapt/utils-cpp/PropertyMap.cpp
+	<stdlib.h>
+	<string.h>
+	<utils/PropertyMap.h>
+	"fakeLog.h"
+
+1413971957 source:/home/yang/workspace/aapt/utils-cpp/RefBase.cpp
+	<utils/RefBase.h>
+	<utils/Atomic.h>
+	<utils/CallStack.h>
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/TextOutput.h>
+	<stdlib.h>
+	<stdio.h>
+	<typeinfo>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+
+1413972086 source:/home/yang/workspace/aapt/utils-cpp/ResourceTypes.cpp
+	<utils/Atomic.h>
+	<utils/ByteOrder.h>
+	<utils/Debug.h>
+	<utils/ResourceTypes.h>
+	<utils/String16.h>
+	<utils/String8.h>
+	<utils/TextOutput.h>
+	"fakeLog.h"
+	<stdlib.h>
+	<string.h>
+	<memory.h>
+	<ctype.h>
+	<stdint.h>
+
+1413557132 source:/home/yang/workspace/aapt/utils-cpp/SharedBuffer.cpp
+	<stdlib.h>
+	<string.h>
+	<utils/SharedBuffer.h>
+	<utils/Atomic.h>
+
+1413973080 source:/home/yang/workspace/aapt/utils-cpp/Static.cpp
+	<private/utils/Static.h>
+	<utils/BufferedTextOutput.h>
+	"fakeLog.h"
+	<unistd.h>
+
+1413973123 source:/home/yang/workspace/aapt/utils-cpp/StopWatch.cpp
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"fakeLog.h"
+	<utils/Errors.h>
+	<utils/StopWatch.h>
+
+1413973142 source:/home/yang/workspace/aapt/utils-cpp/StreamingZipInflater.cpp
+	"fakeLog.h"
+	<utils/FileMap.h>
+	<utils/StreamingZipInflater.h>
+	<string.h>
+	<stddef.h>
+	<assert.h>
+
+1413973166 source:/home/yang/workspace/aapt/utils-cpp/String16.cpp
+	<utils/String16.h>
+	<utils/Debug.h>
+	"fakeLog.h"
+	<utils/Unicode.h>
+	<utils/String8.h>
+	<utils/TextOutput.h>
+	<utils/threads.h>
+	<private/utils/Static.h>
+	<memory.h>
+	<stdio.h>
+	<ctype.h>
+
+1413557132 source:/home/yang/workspace/aapt/utils-cpp/StringArray.cpp
+	<stdlib.h>
+	<string.h>
+	<utils/StringArray.h>
+
+1414376462 source:/home/yang/workspace/aapt/utils-cpp/String8.cpp
+	<utils/String8.h>
+	<stdio.h>
+	"fakeLog.h"
+	"preDef.h"
+	<utils/Unicode.h>
+	<utils/SharedBuffer.h>
+	<utils/String16.h>
+	<utils/TextOutput.h>
+	<utils/threads.h>
+	<private/utils/Static.h>
+	<ctype.h>
+
+1414029677 source:/home/yang/workspace/aapt/utils-cpp/SystemClock.cpp
+	<linux/ioctl.h>
+	<linux/rtc.h>
+	<utils/Atomic.h>
+	<linux/android_alarm.h>
+	<sys/time.h>
+	<limits.h>
+	<fcntl.h>
+	<errno.h>
+	<string.h>
+	<utils/SystemClock.h>
+	<utils/Timers.h>
+	"fakeLog.h"
+
+1413557132 source:/home/yang/workspace/aapt/utils-cpp/TextOutput.cpp
+	<utils/TextOutput.h>
+	<utils/Debug.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1414029705 source:/home/yang/workspace/aapt/utils-cpp/Threads.cpp
+	<utils/threads.h>
+	"fakeLog.h"
+	<cutils/sched_policy.h>
+	<cutils/properties.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<errno.h>
+	<assert.h>
+	<unistd.h>
+	<pthread.h>
+	<sched.h>
+	<sys/resource.h>
+	<windows.h>
+	<stdint.h>
+	<process.h>
+	<sys/prctl.h>
+
+1414029725 source:/home/yang/workspace/aapt/utils-cpp/Timers.cpp
+	<utils/Timers.h>
+	"fakeLog.h"
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	<sys/time.h>
+	<time.h>
+	<errno.h>
+	<limits.h>
+	<windows.h>
+
+1414029843 source:/home/yang/workspace/aapt/utils-cpp/Tokenizer.cpp
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"fakeLog.h"
+	<utils/Tokenizer.h>
+
+1413557132 source:/home/yang/workspace/aapt/utils-cpp/Unicode.cpp
+	<utils/Unicode.h>
+	<stddef.h>
+	<netinet/in.h>
+
+1414029865 source:/home/yang/workspace/aapt/utils-cpp/VectorImpl.cpp
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"fakeLog.h"
+	<utils/Errors.h>
+	<utils/SharedBuffer.h>
+	<utils/VectorImpl.h>
+
+1413557133 source:/home/yang/workspace/aapt/utils-cpp/ZipFileCRO.cpp
+	<utils/ZipFileCRO.h>
+	<utils/ZipFileRO.h>
+
+1414029886 source:/home/yang/workspace/aapt/utils-cpp/ZipFileRO.cpp
+	<utils/ZipFileRO.h>
+	"fakeLog.h"
+	<utils/misc.h>
+	<utils/threads.h>
+	<zlib.h>
+	<string.h>
+	<fcntl.h>
+	<errno.h>
+	<assert.h>
+	<unistd.h>
+
+1414029914 source:/home/yang/workspace/aapt/utils-cpp/ZipUtils.cpp
+	<utils/ZipUtils.h>
+	<utils/ZipFileRO.h>
+	"fakeLog.h"
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<zlib.h>
+
+1413557278 source:/home/yang/workspace/aapt/cutils-c/abort_socket.c
+	<stdlib.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/socket.h>
+	<sys/poll.h>
+	"cutils/abort_socket.h"
+
+1414380370 source:/home/yang/workspace/aapt/cutils-c/android_reboot.c
+	<unistd.h>
+	<sys/reboot.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<stdio.h>
+	<string.h>
+	<cutils/android_reboot.h>
+
+1413557278 source:/home/yang/workspace/aapt/cutils-c/array.c
+	<cutils/array.h>
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+
+1413557275 source:/home/yang/workspace/aapt/cutils-c/atomic.c
+	<cutils/atomic-inline.h>
+
+1413557276 source:/home/yang/workspace/aapt/cutils-c/properties.c
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<cutils/sockets.h>
+	<errno.h>
+	<assert.h>
+	<cutils/properties.h>
+	"loghack.h"
+	<sys/_system_properties.h>
+	<stdio.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<pthread.h>
+	<cutils/threads.h>
+
+1413557275 /home/yang/workspace/aapt/cutils-c/loghack.h
+	<cutils/log.h>
+	<stdio.h>
+
+1414401388 source:/home/yang/workspace/aapt/cutils-c/sched_policy.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<errno.h>
+	<fcntl.h>
+	"fakeLog.h"
+	<sched.h>
+	<pthread.h>
+	<cutils/sched_policy.h>
+
+1414384419 source:/home/yang/workspace/aapt/cutils-c/threads.c
+	<cutils/threads.h>
+	<pthread.h>
+
+1413557277 source:/home/yang/workspace/aapt/cutils-c/uio.c
+	<cutils/uio.h>
+	<unistd.h>
+
+1413557277 source:/home/yang/workspace/aapt/cutils-c/sockets.c
+	<cutils/log.h>
+	<cutils/sockets.h>
+	<private/android_filesystem_config.h>
+
+1413557082 /home/yang/workspace/aapt//utils/AssetManager.h
+	<utils/Asset.h>
+	<utils/AssetDir.h>
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	<utils/String16.h>
+	<utils/ZipFileRO.h>
+	<utils/threads.h>
+
+1413557082 /home/yang/workspace/aapt//utils/Asset.h
+	<stdio.h>
+	<sys/types.h>
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/String8.h>
+
+1413557082 /home/yang/workspace/aapt//utils/Compat.h
+	<unistd.h>
+
+1413557082 /home/yang/workspace/aapt//utils/Errors.h
+	<sys/types.h>
+	<errno.h>
+
+1413557083 /home/yang/workspace/aapt//utils/FileMap.h
+	<sys/types.h>
+	<utils/Compat.h>
+	<windows.h>
+
+1413557080 /home/yang/workspace/aapt//utils/String8.h
+	<utils/Errors.h>
+	<utils/SharedBuffer.h>
+	<utils/Unicode.h>
+	<string.h>
+	<stdarg.h>
+
+1413557084 /home/yang/workspace/aapt//utils/SharedBuffer.h
+	<stdint.h>
+	<sys/types.h>
+
+1413557081 /home/yang/workspace/aapt//utils/Unicode.h
+	<sys/types.h>
+	<stdint.h>
+
+1413557082 /home/yang/workspace/aapt//utils/AssetDir.h
+	<utils/String8.h>
+	<utils/Vector.h>
+	<utils/SortedVector.h>
+	<utils/misc.h>
+	<sys/types.h>
+
+1413972387 /home/yang/workspace/aapt//utils/Vector.h
+	<new>
+	<stdint.h>
+	<sys/types.h>
+	"fakeLog.h"
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1414401361 /home/yang/workspace/aapt//fakeLog.h
+
+1413557081 /home/yang/workspace/aapt//utils/VectorImpl.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<utils/Errors.h>
+
+1413557081 /home/yang/workspace/aapt//utils/TypeHelpers.h
+	<new>
+	<stdint.h>
+	<string.h>
+	<sys/types.h>
+
+1413557084 /home/yang/workspace/aapt//utils/SortedVector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<utils/Vector.h>
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1413557083 /home/yang/workspace/aapt//utils/misc.h
+	<sys/time.h>
+	<utils/Endian.h>
+
+1413557082 /home/yang/workspace/aapt//utils/Endian.h
+	<endian.h>
+
+1413961197 /home/yang/workspace/aapt//utils/KeyedVector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<utils/SortedVector.h>
+	<utils/TypeHelpers.h>
+	<utils/Errors.h>
+
+1413557080 /home/yang/workspace/aapt//utils/String16.h
+	<utils/Errors.h>
+	<utils/SharedBuffer.h>
+	<utils/Unicode.h>
+
+1413557081 /home/yang/workspace/aapt//utils/ZipFileRO.h
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/threads.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<time.h>
+
+1413557081 /home/yang/workspace/aapt//utils/threads.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<system/graphics.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/RefBase.h>
+	<utils/Timers.h>
+
+1413948498 /home/yang/workspace/aapt//system/graphics.h
+
+1413557083 /home/yang/workspace/aapt//utils/RefBase.h
+	<cutils/atomic.h>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+	<string.h>
+	<utils/StrongPointer.h>
+
+1413557185 /home/yang/workspace/aapt//cutils/atomic.h
+	<stdint.h>
+	<sys/types.h>
+
+1413557081 /home/yang/workspace/aapt//utils/StrongPointer.h
+	<cutils/atomic.h>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+
+1413557081 /home/yang/workspace/aapt//utils/Timers.h
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1413557084 /home/yang/workspace/aapt//utils/ResourceTypes.h
+	<utils/Asset.h>
+	<utils/ByteOrder.h>
+	<utils/Errors.h>
+	<utils/String16.h>
+	<utils/Vector.h>
+	<utils/threads.h>
+	<stdint.h>
+	<sys/types.h>
+	<android/configuration.h>
+
+1413557082 /home/yang/workspace/aapt//utils/ByteOrder.h
+	<stdint.h>
+	<sys/types.h>
+	<winsock2.h>
+	<netinet/in.h>
+
+1413948825 /home/yang/workspace/aapt//android/configuration.h
+	<android/asset_manager.h>
+
+1413948868 /home/yang/workspace/aapt//android/asset_manager.h
+	<sys/types.h>
+
+1413557083 /home/yang/workspace/aapt//utils/List.h
+	<stddef.h>
+	<stdint.h>
+
+1413557081 /home/yang/workspace/aapt//utils/TextOutput.h
+	<utils/Errors.h>
+	<stdint.h>
+	<string.h>
+
+1413557185 /home/yang/workspace/aapt//cutils/atomic-inline.h
+	<cutils/atomic-arm.h>
+	<cutils/atomic-x86.h>
+
+1413557185 /home/yang/workspace/aapt//cutils/atomic-x86.h
+	<stdint.h>
+
+1413557184 /home/yang/workspace/aapt//cutils/sockets.h
+	<errno.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<winsock2.h>
+	<sys/socket.h>
+
+1413557184 /home/yang/workspace/aapt//cutils/properties.h
+
+1413966907 /home/yang/workspace/aapt//cutils/log.h
+	<stdio.h>
+	<time.h>
+	<sys/types.h>
+	<unistd.h>
+	<pthread.h>
+	<stdarg.h>
+	<cutils/uio.h>
+	<cutils/logd.h>
+
+1413557185 /home/yang/workspace/aapt//cutils/uio.h
+	<sys/uio.h>
+	<stddef.h>
+
+1413557184 /home/yang/workspace/aapt//cutils/logd.h
+	<android/log.h>
+	<time.h>
+	<stdio.h>
+	<unistd.h>
+	<stdint.h>
+	<sys/types.h>
+	<pthread.h>
+	<cutils/uio.h>
+	<stdarg.h>
+
+1413948191 /home/yang/workspace/aapt//android/log.h
+	<stdio.h>
+	<time.h>
+	<sys/types.h>
+	<unistd.h>
+	<pthread.h>
+	<stdarg.h>
+	<cutils/uio.h>
+	<cutils/logd.h>
+
+1413557185 /home/yang/workspace/aapt//cutils/threads.h
+	<pthread.h>
+	<windows.h>
+
+1413557184 /home/yang/workspace/aapt//cutils/sched_policy.h
+
+1413557082 /home/yang/workspace/aapt//utils/Atomic.h
+	<cutils/atomic.h>
+
+1413557080 /home/yang/workspace/aapt//utils/StreamingZipInflater.h
+	<unistd.h>
+	<inttypes.h>
+	<zlib.h>
+	<utils/Compat.h>
+
+1413557081 /home/yang/workspace/aapt//utils/ZipUtils.h
+	<stdio.h>
+
+1413557082 /home/yang/workspace/aapt//utils/BackupHelpers.h
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/KeyedVector.h>
+
+1413557082 /home/yang/workspace/aapt//utils/BlobCache.h
+	<stddef.h>
+	<utils/RefBase.h>
+	<utils/SortedVector.h>
+	<utils/threads.h>
+
+1413557082 /home/yang/workspace/aapt//utils/BufferedTextOutput.h
+	<utils/TextOutput.h>
+	<utils/threads.h>
+	<cutils/uio.h>
+
+1413557082 /home/yang/workspace/aapt//utils/Debug.h
+	<stdint.h>
+	<sys/types.h>
+
+1413971230 /home/yang/workspace/aapt//private/utils/Static.h
+	<utils/threads.h>
+	<utils/KeyedVector.h>
+
+1413557082 /home/yang/workspace/aapt//utils/CallStack.h
+	<stdint.h>
+	<sys/types.h>
+	<utils/String8.h>
+
+1413557083 /home/yang/workspace/aapt//utils/Flattenable.h
+	<stdint.h>
+	<sys/types.h>
+	<utils/Errors.h>
+
+1413557083 /home/yang/workspace/aapt//utils/LinearTransform.h
+	<stdint.h>
+
+1413557083 /home/yang/workspace/aapt//utils/Looper.h
+	<utils/threads.h>
+	<utils/RefBase.h>
+	<utils/KeyedVector.h>
+	<utils/Timers.h>
+	<android/looper.h>
+	<sys/epoll.h>
+	<sys/poll.h>
+
+1413971812 /home/yang/workspace/aapt//android/looper.h
+
+1413557083 /home/yang/workspace/aapt//utils/ObbFile.h
+	<stdint.h>
+	<strings.h>
+	<utils/RefBase.h>
+	<utils/String8.h>
+
+1413557083 /home/yang/workspace/aapt//utils/PropertyMap.h
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	<utils/Errors.h>
+	<utils/Tokenizer.h>
+
+1413557081 /home/yang/workspace/aapt//utils/Tokenizer.h
+	<assert.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/String8.h>
+
+1413557080 /home/yang/workspace/aapt//utils/StopWatch.h
+	<stdint.h>
+	<sys/types.h>
+	<utils/Timers.h>
+
+1413964542 /home/yang/workspace/aapt//preDef.h
+
+1413557080 /home/yang/workspace/aapt//utils/StringArray.h
+	<stdlib.h>
+	<string.h>
+
+1413557081 /home/yang/workspace/aapt//utils/SystemClock.h
+	<stdint.h>
+	<sys/types.h>
+
+1413557081 /home/yang/workspace/aapt//utils/ZipFileCRO.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<utils/Compat.h>
+
+1413965753 /home/yang/workspace/aapt//host/pseudolocalize.h
+	<string>
+

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="aapt" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/aapt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Option projectIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DHAVE_OFF64_T" />
+					<Add option="-DHAVE_ENDIAN_H" />
+					<Add option="-DHAVE_SYS_UIO_H" />
+					<Add option="-DHAVE_PTHREADS" />
+					<Add option="-DHAVE_POSIX_FILEMAP" />
+					<Add option="-DANDROID_SMP" />
+					<Add option="-DHAVE_SCHED_H" />
+					<Add directory="/home/yang/workspace/aapt/" />
+				</Compiler>
+				<Linker>
+					<Add library="libs/libc.so" />
+					<Add library="libs/libstdc++.so" />
+					<Add library="libs/liblog.so" />
+					<Add library="../../../../usr/lib/i386-linux-gnu/libz.so" />
+					<Add library="../../../../usr/lib/i386-linux-gnu/libpng12.so" />
+					<Add library="../../../../usr/lib/i386-linux-gnu/libexpat.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/aapt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AaptAssets.cpp" />
+		<Unit filename="AaptAssets.h" />
+		<Unit filename="Android.mk" />
+		<Unit filename="Bundle.h" />
+		<Unit filename="CacheUpdater.h" />
+		<Unit filename="Command.cpp" />
+		<Unit filename="CrunchCache.cpp" />
+		<Unit filename="CrunchCache.h" />
+		<Unit filename="DirectoryWalker.h" />
+		<Unit filename="FileFinder.cpp" />
+		<Unit filename="FileFinder.h" />
+		<Unit filename="Images.cpp" />
+		<Unit filename="Images.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Main.h" />
+		<Unit filename="NOTICE" />
+		<Unit filename="Package.cpp" />
+		<Unit filename="Resource.cpp" />
+		<Unit filename="ResourceFilter.cpp" />
+		<Unit filename="ResourceFilter.h" />
+		<Unit filename="ResourceTable.cpp" />
+		<Unit filename="ResourceTable.h" />
+		<Unit filename="SourcePos.cpp" />
+		<Unit filename="SourcePos.h" />
+		<Unit filename="StringPool.cpp" />
+		<Unit filename="StringPool.h" />
+		<Unit filename="XMLNode.cpp" />
+		<Unit filename="XMLNode.h" />
+		<Unit filename="ZipEntry.cpp" />
+		<Unit filename="ZipEntry.h" />
+		<Unit filename="ZipFile.cpp" />
+		<Unit filename="ZipFile.h" />
+		<Unit filename="aapt.depend" />
+		<Unit filename="aapt.layout" />
+		<Unit filename="constDef.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="cutils-c/atomic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cutils-c/loghack.h" />
+		<Unit filename="cutils-c/properties.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cutils-c/sched_policy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cutils-c/sockets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cutils-c/threads.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cutils-c/uio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fakeLog.h" />
+		<Unit filename="host/pseudolocalize.cpp" />
+		<Unit filename="preDef.h" />
+		<Unit filename="utils-cpp/Asset.cpp" />
+		<Unit filename="utils-cpp/AssetDir.cpp" />
+		<Unit filename="utils-cpp/AssetManager.cpp" />
+		<Unit filename="utils-cpp/BackupData.cpp" />
+		<Unit filename="utils-cpp/BackupHelpers.cpp" />
+		<Unit filename="utils-cpp/BlobCache.cpp" />
+		<Unit filename="utils-cpp/BufferedTextOutput.cpp" />
+		<Unit filename="utils-cpp/CallStack.cpp" />
+		<Unit filename="utils-cpp/Debug.cpp" />
+		<Unit filename="utils-cpp/FileMap.cpp" />
+		<Unit filename="utils-cpp/Flattenable.cpp" />
+		<Unit filename="utils-cpp/LinearTransform.cpp" />
+		<Unit filename="utils-cpp/Looper.cpp" />
+		<Unit filename="utils-cpp/ObbFile.cpp" />
+		<Unit filename="utils-cpp/PropertyMap.cpp" />
+		<Unit filename="utils-cpp/RefBase.cpp" />
+		<Unit filename="utils-cpp/ResourceTypes.cpp" />
+		<Unit filename="utils-cpp/SharedBuffer.cpp" />
+		<Unit filename="utils-cpp/Static.cpp" />
+		<Unit filename="utils-cpp/StopWatch.cpp" />
+		<Unit filename="utils-cpp/StreamingZipInflater.cpp" />
+		<Unit filename="utils-cpp/String16.cpp" />
+		<Unit filename="utils-cpp/String8.cpp" />
+		<Unit filename="utils-cpp/StringArray.cpp" />
+		<Unit filename="utils-cpp/SystemClock.cpp" />
+		<Unit filename="utils-cpp/TextOutput.cpp" />
+		<Unit filename="utils-cpp/Threads.cpp" />
+		<Unit filename="utils-cpp/Timers.cpp" />
+		<Unit filename="utils-cpp/Tokenizer.cpp" />
+		<Unit filename="utils-cpp/Unicode.cpp" />
+		<Unit filename="utils-cpp/VectorImpl.cpp" />
+		<Unit filename="utils-cpp/ZipFileCRO.cpp" />
+		<Unit filename="utils-cpp/ZipFileRO.cpp" />
+		<Unit filename="utils-cpp/ZipUtils.cpp" />
+		<Unit filename="utils-cpp/misc.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
